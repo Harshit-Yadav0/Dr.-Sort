@@ -1,2 +1,2 @@
-with open ("file_dir.txt","r") as file:
-    
+import function as fun
+import sub
