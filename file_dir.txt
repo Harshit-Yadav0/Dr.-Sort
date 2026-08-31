@@ -1,0 +1,10 @@
+txt, doc, docx, pdf, rtf, odt, md, tex, log
+xls, xlsx, csv, ods, tsv, xlt, xltx, xltm, xlsm, xlsb
+ppt, pptx, odp, pps, ppsx, pot, potx, potm, pptm, sxi
+jpg, jpeg, png, gif, webp, bmp, tiff, svg, ico, heic
+mp3, wav, flac, aac, ogg, m4a, wma, alac, opus, aiff
+mp4, mkv, avi, mov, webm, flv, wmv, m4v, mpg, mpeg
+zip, rar, 7z, tar, gz, bz2, xz, tgz, tbz2, zst
+exe, msi, app, deb, rpm, bin, run, dmg, pkg, sh
+apk, aab, xapk, apks, ipa, jar, war, ear, aar, so
+py, c, h, cpp, hpp, cc, cxx, cs, java, kt, swift        

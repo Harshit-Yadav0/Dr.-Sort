@@ -9,4 +9,4 @@ def delete_folder(y):
     return
 
 def file_count():
-    
+    result=subprocess.run
