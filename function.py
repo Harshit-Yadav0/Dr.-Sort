@@ -32,3 +32,6 @@ def find_folder(name):
     result=subprocess.run(["find",".","-name", name], capture_output=True)
     return result.stdout
 
+def file_name():
+    
+    
