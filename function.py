@@ -28,5 +28,7 @@ def file_type(x):
                 code=401
                 return code
 
-def find_f0o000l0000000
-                
+def find_folder(name):
+    result=subprocess.run(["find",".","-name", name], capture_output=True)
+    return result.stdout
+
