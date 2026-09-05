@@ -8,17 +8,15 @@ import getpass
 
 
 #Main code
-username=getpass.getuser()
-subprocess.run(["mkdir",username])
-subprocess.run(["cd",username]) #Not working till now
-subprocess.run(["mkdir","big"])
-subprocess.run(["cd","big"])
-subprocess.run(["mkdir","Document"])
-subprocess.run(["mkdir","Images"])
-subprocess.run(["mkdir","Audio"])
-subprocess.run(["mkdir","Vedio"])
-subprocess.run(["mkdir","Undefined"])
-device_path=Path.home()
+username = getpass.getuser()
+
+# Define base path at the user's home directory
+base_path = Path.home() / username / "big"
+
+# Create directories including parents if they do not exist
+for folder in ["Document", "Images", "Audio", "Video", "Undefined"]:
+    dir_path = base_path / folder
+    dir_path.mkdir(parents=True, exist_ok=True)
 
 #/main/file extension table
 text=["txt", "doc", "docx", "pdf", "rtf", "odt", "md", "tex", "log"]
